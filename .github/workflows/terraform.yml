@@ -8,7 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      id-token: write   # REQUIRED for OIDc
+      id-token: write   # REQUIRED for OID
       contents: read
 
     steps:
